@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--link del Jquery Modal-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estiloLogin.css">
+    <title>Clinica 25 de Julio</title>
+</head>
+
+<body>
+    <!--
+    <div class="error">
+        <span> Datos de ingreso no validos, intentelo de nuevo por favor</span>
+    </div>
+    
+       <div class="main">
+            <form action="" id="formlg">
+                <input type="text" name="usuariolog" placeholder="Usuario" required/>
+                <input type="text" name="password" placeholder="Contraseña" required/>
+                <input type="submit" name="botonlg" value="iniciar sesion" required/>
+            </form>
+
+       </div>
+-->
+    <div id="Wrapper">
+
+        <div id="imgPresentacion">
+            <img src="img/foto.png" alt="100">
+        </div>
+
+        <p id="openModal"><a href="#ex1" rel="modal:open">Iniciar Sesion</a></p>
+
+        <!--Ventana modal con la libreria Jquery Modal -->
+        <div id="ex1" class="modal">
+
+            <div class="barraArriba1">
+                <p id="titulo1">Clinica</p>
+            </div>
+
+            <div class="barraArriba2">
+                <p id="titulo2">25 de Julio</p>
+            </div>
+
+            <div class="main">
+                <form>
+
+                    <div id="icono1">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    
+                    <div id="icono2">
+                            <i class="fas fa-key"></i>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="usuario">Usuario</label>         
+                        <input type="usuario"  class="form-control " id="exampleInputEmail1" aria-describedby="emailHelp"
+                            placeholder="Usuario">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Ingresar</button>
+                </form>
+
+            </div>
+            <!--   <a href="#" rel="modal:close">Close</a>-->
+        </div>
+
+
+        <!-- 2 Librerias de Jquery Modal-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+
+        <script src="assets/jquery.js"></script>
+        <script src="assets/scriptLogin.js"></script>
+
+    </div>
+
+</body>
+
+</html>

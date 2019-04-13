@@ -1,0 +1,62 @@
+
+section{
+    margin: auto;
+    background:honeydew;
+    width: 850px;
+    height: 500px;
+    margin-top: 10px;
+
+
+}
+
+
+.barraArriba1{
+    width: 1700px;
+    height: 70px;
+    background: #2a5f8b;
+    margin-top: -15px;
+    margin-left: -30px;
+}
+
+.barraArriba2{
+    width: 1700px;
+    height: 70px;
+    background:greenyellow;
+    margin-top: 0px;
+    margin-left: -30px;
+}
+
+
+#titulo1{
+    color:white;
+    font-size: 40px;
+    margin-left: 650px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+
+#titulo2{
+ 
+    color:#2a5f8b;
+    font-size: 50px;
+    margin-left: 600px;
+    font-weight: bold;
+}
+
+#imgSubir{
+ background: #2a5f8b;
+ width: 150px;
+ height: 120px;
+ margin-left: 0px;
+}
+
+#btnImg{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#rol{
+    margin-top: -150px;
+    margin-left: 180px;
+}
